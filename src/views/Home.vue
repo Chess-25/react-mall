@@ -6,7 +6,7 @@
     <div >
       <img class="home_start_txt" src="../assets/home_start_txt.png"/>
       <div class="lu">
-        <h1 class="zero">0</h1>
+        <h1 class="zero">1</h1>
         <h2 class="d">里程</h2>
       </div>
     </div>
