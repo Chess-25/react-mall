@@ -1,0 +1,14 @@
+.tab{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 550;
+  font-size: 16px;
+  background-color: #ff5777;
+  color: #fff;
+}

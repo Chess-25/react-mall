@@ -1,0 +1,11 @@
+.selectShow{
+  width: 100%;
+  position: fixed;
+  top: 40px;
+  z-index: 999;
+}
+.home-scroll{
+  margin: 40px 0 50px 0;
+  height: 100%;
+  overflow: scroll;
+}

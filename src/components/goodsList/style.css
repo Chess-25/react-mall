@@ -1,0 +1,48 @@
+.goods {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+.goods-item {
+  width: 46.5%;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.goods-item:nth-child(odd){
+  margin-right:4px;
+}
+.goods-item:nth-child(even){
+  margin-left:4px;
+}
+.goods-content {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+.goods-img img{
+  border-radius: 5px;
+}
+.goods-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 2px;
+}
+.goods-price{
+  padding:3px 0 2px 20px;
+}
+.goods-price span{
+  width: 100px;
+  text-align: center;
+}
+.goods-price span:nth-child(1){
+  color: #ff5777;
+  margin-right:10px;
+}
+.orgPrice{
+  padding-bottom: 2px;
+  text-align: center;
+  color: #dcdcdc;
+  text-decoration:line-through;
+}

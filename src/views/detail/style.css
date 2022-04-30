@@ -1,0 +1,20 @@
+.back{
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+}
+.detail-select{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #f5f5f5;
+}
+.detail-content{
+  margin-top: 44px;
+}
+.recommends{
+  margin-bottom: 50px;
+}
